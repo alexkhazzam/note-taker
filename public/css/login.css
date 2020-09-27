@@ -1,0 +1,29 @@
+.login-form {
+  border: 2px solid black;
+  width: fit-content;
+  margin: auto;
+  padding: 20px;
+}
+
+.login-form__username,
+.login-form__password {
+  display: block;
+  margin: 30px;
+  border: none;
+  border-bottom: 2px solid black;
+  font-size: 1.2rem;
+}
+
+.login-form__username:focus,
+.login-form__password:focus {
+  outline: none;
+  border-color: rgb(255, 166, 0);
+}
+
+.login-form__submit {
+  margin: auto;
+}
+
+.main-form {
+  margin-top: 100px;
+}
